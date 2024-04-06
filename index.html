@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaria Young</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Zaria Young</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Zaria Young</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>
+        </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="./pics/profile.png" alt=" Zaria Young profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Zaria Young</h1>
+            <p class="section_text_p2">Web Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('ZariaYoungResume.pdf')">
+                    Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section_pic_container">
+            <img src="./pics/about.jpeg"
+            alt="profile picture" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers"> </div>
+        <div class="text-container">
+            <p>Hey there! My name is Zaria Young.
+            I'm a programmer currently based in Michigan. 
+            I graduated from Michigan State University with
+            a degree in Experience Architecture, in other words
+            UX/UI Design. I enjoy problem-solving and pushing my 
+            creative boundaries. When I'm not programming, you can 
+            find me traveling, gaming, or experimenting in the kitchen.
+            Let's connect!</p>
+        </div>
+        </div>
+    </div>
+    <img src="./pics/arrow.png"
+    alt="arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">View My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./pics/cupcakewebsite.png"
+                    alt="Project 1"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Sophie's Cupcakes</h2>
+                <p>ReactJS</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/youngzare/cupcake-website.git'">Github</button>
+                    
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://sophiescupcakes.netlify.app'">Live Demo</button>   
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./pics/recipe.png"
+                    alt="Recipe Finder"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Recipe Finder</h2>
+                <p>Python & Recipe API</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https:/github.com/youngzare/recipe_finder.git'">Github</button>
+                    
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://recipefinderdemo.netlify.app'">Live Demo</button>   
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./pics/buyblack.png"
+                    alt="Project 3"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Buy Black</h2>
+                <p>Python & Yelp Fusion API</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https:/github.com/youngzare/buy_black.git'">Github</button>
+                    
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://buyblackdemo.netlify.app'">Live Demo</button>   
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="./pics/arrow.png"
+        alt="arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./pics/email.png"
+                alt="Email icon"
+                class="icon contact-icon"/>
+                <p><a href="mailto:youngzariae@gmail.com">
+                youngzariae@gmail.com</a></p>
+                <img src="./pics/dribbble.webp"
+                alt="Email icon"
+                class="icon contact-icon"/>
+                <p><a href="https://dribbble.com/zariacreates">
+                    dribbble: zariacreates</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Zaria Young. All Rights Reserved.</p>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
